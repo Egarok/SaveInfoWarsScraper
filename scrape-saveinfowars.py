@@ -23,7 +23,7 @@ for index, row in df_recent.iterrows():
         # https://stackoverflow.com/questions/43408621/add-a-row-at-top-in-pandas-dataframe
 
         df_compiled.loc[-1] = row # add new row
-        df_compiled.index = df_compiled + 1 # shift index
+        df_compiled.index = df_compiled.index + 1 # shift index
         df_compiled.sort_index(inplace=True)
 
 # write to data file
