@@ -1,4 +1,4 @@
-# Save Info Wars Scraper 
+# Save Info Wars Scraper
 
 [![scraper-saveinfowars](https://github.com/Egarok/SaveInfoWarsScraper/actions/workflows/scraper-saveinfowars.yml/badge.svg)](https://github.com/Egarok/SaveInfoWarsScraper/actions/workflows/scraper-saveinfowars.yml)
 
@@ -24,13 +24,13 @@ Alex Jones after lawsuits
 
 ## Data Available (in /data)
 
-`saveinfowars-donations-compiled.csv` : all SaveInfoWars donation data compiled at the time as a CSV file
-
-- using `scrape-saveinfowars-csv-builder.py`
-
-`saveinfowars-funding.csv` : WIP, CSV that updates based on a routine cron job with GitHub Actions
+`saveinfowars-donations-records.csv` : CSV that updates based on a routine cron job with GitHub Actions - should have most up to date data on donations
 
 - using `scrape-saveinfowars.py`
+
+`saveinfowars-donations-compiled.csv` : all SaveInfoWars donation data compiled as the starting file
+
+- using `scrape-saveinfowars-csv-builder.py`
 
 ---
 
