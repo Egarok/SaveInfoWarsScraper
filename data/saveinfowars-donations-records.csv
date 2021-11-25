@@ -1,6 +1,6 @@
 donation_id,campaign_id,donation_amount,donation_comment,donation_conversion_rate,donation_name,donation_anonymous,donation_date,lovecount,likes
-375442,44611,50.00,,1.000000,dave,0,30 mins ago,0,0
-375453,44611,10.00,Thank you Infowars ,1.000000,,1,0 mins ago,0,0
+375442,44611,50.0,,1.0,dave,0,30 mins ago,0,0
+375453,44611,10.0,Thank you Infowars ,1.0,,1,0 mins ago,0,0
 375365,44611,10.0,,1.0,,1,41 mins ago,0,0
 375357,44611,200.0,"Mahalo nui loa, Doug.",1.0,,1,33 mins ago,0,1
 375337,44611,50.0,Can't stop won't stop. Go get em tiger.,1.0,Diamond Hand,0,40 mins ago,0,1
