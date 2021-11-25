@@ -15,17 +15,17 @@ soup = BeautifulSoup(page.text, 'html.parser')
 total_amount_elements = list(set(soup.find_all('span', {"style": "font-weight:bold;color: #000;"})))
 
 # Grab elements
-total_amount_raised = total_amount_elements[0].get_text()
+total_amount_raised = total_amount_elements[1].get_text()
 total_donations_elements = list(set(soup.find_all(class_='totalDonationCount')))
-shares_count = total_donations_elements[0].get_text()
-donations_count = total_donations_elements[1].get_text()
+shares_count = total_donations_elements[1].get_text()
+donations_count = total_donations_elements[0].get_text()
 prayer_count = soup.find_all(id='praynowcount')[0].get_text()
 updated_at = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
 
-# header = ['total_amount_raised', 'donations_count', 'shares_count', 'prayers_count', 'updated_at']
 data = [str(total_amount_raised), str(donations_count), str(shares_count), str(prayer_count), updated_at]
 
 # used for creating initial CSV
+# header = ['total_amount_raised', 'donations_count', 'shares_count', 'prayers_count', 'updated_at']
 # with open('saveinfowars-stats.csv', 'w', encoding='UTF8') as f:
 #     writer = csv.writer(f)
 
