@@ -15,10 +15,10 @@ soup = BeautifulSoup(page.text, 'html.parser')
 total_amount_elements = list(set(soup.find_all('span', {"style": "font-weight:bold;color: #000;"})))
 
 # Grab elements
-total_amount_raised = total_amount_elements[1].get_text()
+total_amount_raised = total_amount_elements[0].get_text()
 total_donations_elements = list(set(soup.find_all(class_='totalDonationCount')))
-shares_count = total_donations_elements[1].get_text()
 donations_count = total_donations_elements[0].get_text()
+shares_count = total_donations_elements[1].get_text()
 prayer_count = soup.find_all(id='praynowcount')[0].get_text()
 updated_at = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
 
