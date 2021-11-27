@@ -1,7 +1,7 @@
 donation_id,campaign_id,donation_amount,donation_comment,donation_conversion_rate,donation_name,donation_anonymous,donation_date,lovecount,likes
-377803,44611,70.00,,1.000000,Dominic,0,28 mins ago,0,1
-377805,44611,20.00,Good luck,1.000000,James gallagher ,1,21 mins ago,0,1
-377817,44611,20.00,WE ARE THE RESISTANCE!,1.000000,,0,4 mins ago,0,0
+377803,44611,70.0,,1.0,Dominic,0,28 mins ago,0,1
+377805,44611,20.0,Good luck,1.0,James gallagher ,1,21 mins ago,0,1
+377817,44611,20.0,WE ARE THE RESISTANCE!,1.0,,0,4 mins ago,0,0
 377745,44611,50.0,,1.0,,1,56 mins ago,0,0
 377754,44611,50.0,,1.0,,0,38 mins ago,0,1
 377757,44611,10.0,,1.0,,1,34 mins ago,0,1
