@@ -27,5 +27,5 @@ for index, row in df_recent.iterrows():
         df_compiled.sort_index(inplace=True)
 
 # write to data file
-df_compiled.to_csv(csv_filename, quotechar="", sep=',', index=False)
+df_compiled.to_csv(csv_filename, quotechar='"', sep=',', index=False)
 
