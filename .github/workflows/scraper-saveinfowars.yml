@@ -2,7 +2,7 @@ name: scraper-saveinfowars
 
 on:
   schedule:
-    - cron: '0,15,30,45 * * * *' # runs on the hour, at minute 15, at minute 30, at minute 45
+    - cron: '0,30 * * * *' # runs on the hour and at minute 30
 
 jobs:
   build:
@@ -32,4 +32,5 @@ jobs:
           git add -A
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
+          git pull
           git push
