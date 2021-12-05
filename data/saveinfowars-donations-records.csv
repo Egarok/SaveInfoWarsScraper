@@ -1,7 +1,8 @@
 donation_id,campaign_id,donation_amount,donation_comment,donation_conversion_rate,donation_name,donation_anonymous,donation_date,lovecount,likes
-391012,44611,20.00,,1.000000,,1,12 mins ago,0,1
-391026,44611,20.00,"-Will donate again, Alex Jones is under attack.  They hate him.  We need to defend/fund him for his legal expenses.",1.000000,Sam Pierce,0,1 mins ago,0,0
-391028,44611,15.00,,1.000000,for Alex Jones,0,0 mins ago,0,0
+391046,44611,135.00,,1.000000,,0,1 hrs ago,1,0
+391012,44611,20.0,,1.0,,1,12 mins ago,0,1
+391026,44611,20.0,"-Will donate again, Alex Jones is under attack.  They hate him.  We need to defend/fund him for his legal expenses.",1.0,Sam Pierce,0,1 mins ago,0,0
+391028,44611,15.0,,1.0,for Alex Jones,0,0 mins ago,0,0
 390974,44611,15.0,,1.0,,1,22 mins ago,0,0
 390977,44611,10.0,,1.0,Richard,0,19 mins ago,0,0
 390812,44611,20.0,God Bless You All over at Info Wars. Thank you for all your hard work.,1.0,AnonPatriarch,0,34 mins ago,0,1
