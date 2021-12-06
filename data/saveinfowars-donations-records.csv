@@ -1,6 +1,6 @@
 donation_id,campaign_id,donation_amount,donation_comment,donation_conversion_rate,donation_name,donation_anonymous,donation_date,lovecount,likes
-391591,44611,15.00,,1.000000,,1,24 mins ago,0,0
-391609,44611,40.00,,1.000000,,1,4 mins ago,0,0
+391591,44611,15.0,,1.0,,1,24 mins ago,0,0
+391609,44611,40.0,,1.0,,1,4 mins ago,0,0
 391567,44611,50.0,"Good luck
 God bless",1.0,,1,11 mins ago,0,0
 391579,44611,30.0,,1.0,Patricia Kuboske,1,0 mins ago,0,0
