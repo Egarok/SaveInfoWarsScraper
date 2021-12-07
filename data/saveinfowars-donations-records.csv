@@ -1,6 +1,7 @@
 donation_id,campaign_id,donation_amount,donation_comment,donation_conversion_rate,donation_name,donation_anonymous,donation_date,lovecount,likes
-392517,44611,50.00,,1.000000,,1,1 hrs ago,0,2
-392520,44611,100.00,,1.000000,,1,59 mins ago,0,2
+392597,44611,40.00,,1.000000,,1,2 hrs ago,2,0
+392517,44611,50.0,,1.0,,1,1 hrs ago,0,2
+392520,44611,100.0,,1.0,,1,59 mins ago,0,2
 392475,44611,20.0,Keep up the good work!,1.0,,1,30 mins ago,0,0
 392357,44611,20.0,"Praying you reach the goal, come on Infowars",1.0,Clinton Lambeth,0,23 mins ago,0,0
 392370,44611,50.0,Keep up the good fight! God Bless,1.0,,1,12 mins ago,0,0
